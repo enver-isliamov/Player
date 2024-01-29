@@ -14,8 +14,8 @@ var app = new Vue({
 		debug: false,
 		musicPlaylist: [
         {
-          title: "Genius ft. Sia, Diplo, Labrinth",
-          artist: "LSD",
+          title: "created by Enver Isliamov",
+          artist: "Canli Radio",
           image: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/6.jpg",
           url: "https://c28.radioboss.fm:18047/stream",
         },
