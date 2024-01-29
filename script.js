@@ -1,9 +1,3 @@
-/*
-js-code by - https://codepen.io/JavaScriptJunkie/pen/qBWrRyg?editors=1000
-design by Filip Legierski.
-design: https://dribbble.com/shots/9338617-Simple-Music-Player
-*/
-
 var app = new Vue({
 	el: "#app",
 	data: {
@@ -23,57 +17,8 @@ var app = new Vue({
           title: "Genius ft. Sia, Diplo, Labrinth",
           artist: "LSD",
           image: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/6.jpg",
-          url: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/6.mp3",
+          url: "https://c28.radioboss.fm:18047/stream",
         },
-				{
-          title: "Extreme Ways",
-          artist: "Moby",
-          image: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/3.jpg",
-          url: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/3.mp3",
-        },
-        {
-          title: "Everybody Knows",
-          artist: "Leonard Cohen",
-          image: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/2.jpg",
-          url: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/2.mp3",
-        },
-
-        {
-          title: "Butterflies",
-          artist: "Sia",
-          image: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/4.jpg",
-          url: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/4.mp3",
-        },
-        {
-          title: "The Final Victory",
-          artist: "Haggard",
-          image: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/5.jpg",
-          url: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/5.mp3",
-        },
-        {
-          title: "The Comeback Kid",
-          artist: "Lindi Ortega",
-          image: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/7.jpg",
-          url: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/7.mp3",
-        },
-        {
-          title: "Overdose",
-          artist: "Grandson",
-          image: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/8.jpg",
-          url: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/8.mp3",
-        },
-				{
-          title: "Mekanın Sahibi",
-          artist: "Norm Ender",
-          image: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/1.jpg",
-          url: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/1.mp3",
-        },
-        {
-          title: "Rag'n'Bone Man",
-          artist: "Human",
-          image: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
-          url: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
-        }
 		],
 		audioFile: ""
 	},
